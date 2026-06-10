@@ -1,0 +1,7 @@
+# 📦 Gerekli Kütüphaneler
+yfinance==0.2.38
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+flask==3.0.3
+requests==2.32.3
