@@ -363,8 +363,8 @@ def tarama_yap():
 
 
 def periyodik_tarama():
-    """Hafta içi 09:30, 13:30, 17:30 tarama yapar."""
-    TARAMA_SAATLERI = [(9, 30), (13, 30), (17, 30)]
+    """Hafta içi 07:30, 11:30, 15:30 tarama yapar."""
+    TARAMA_SAATLERI = [(7, 30), (11, 30), (15, 30)]
     while True:
         simdi = datetime.now()
         # Hafta sonu ise bekle
